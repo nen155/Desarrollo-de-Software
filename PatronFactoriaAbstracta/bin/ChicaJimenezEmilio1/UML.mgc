@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="ChicaJimenezEmilio1.CuadroMontana" x="15" y="452">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Cuadro"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.FactoriaCarreraCarretera" x="1313" y="197">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Carrera"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.FactoriaPieza"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.BicicletaCarretera"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.ManillarCarretera" x="404" y="458">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Manillar"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.FactoriaCuadroCarretera" x="1148" y="440">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.FactoriaPieza"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.Manillar" x="322" y="352">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Pieza"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.Ruedas" x="465" y="364">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Pieza"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.FactoriaManillarCarretera" x="1336" y="435">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.FactoriaPieza"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.FactoriaRuedasMontana" x="1336" y="353">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.FactoriaPieza"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.Bicicleta" x="316" y="42">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="ChicaJimenezEmilio1.Bicicleta.TC"
+            endpointName="tipo" kind="Simple"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.Carrera" x="1131" y="67">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.FactoriaCuadroMontana" x="973" y="435">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.FactoriaPieza"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.FactoriaPieza" x="1025" y="271">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.ManillarMontana" x="280" y="461">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Manillar"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.Pieza" x="310" y="247">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.Cuadro" x="128" y="301">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Pieza"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.BicicletaMontana" x="412" y="154">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Bicicleta"/>
+        <Association destinationClassName="ChicaJimenezEmilio1.Pieza"
+            endpointName="piezas" kind="Composition"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.Bicicleta"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.Pieza"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.FactoriaRuedasCarretera" x="814" y="344">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.FactoriaPieza"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.FactoriaManillarMontana" x="830" y="438">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.FactoriaPieza"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.HebraCarreraMontana" x="687" y="108">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.FactoriaCarrera"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.RuedaCarretera" x="570" y="400">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Ruedas"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.CuadroCarretera" x="147" y="451">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Cuadro"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.FactoriaCarreraMontana" x="859" y="196">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Carrera"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.BicicletaMontana"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.FactoriaPieza"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.TestingCarrera" x="935" y="73">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.HebraCarreraMontana"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.HebraCarreraCarretera"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.FactoriaCarrera" x="1079" y="197">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Carrera"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.FactoriaCarreraCarretera"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.FactoriaCarreraMontana"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.RuedaMontana" x="514" y="447">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Ruedas"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.BicicletaCarretera" x="223" y="146">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="ChicaJimenezEmilio1.Bicicleta"/>
+        <Association destinationClassName="ChicaJimenezEmilio1.Pieza"
+            endpointName="piezas" kind="Composition"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.Bicicleta"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.Pieza"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.HebraCarreraCarretera" x="691" y="26">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="ChicaJimenezEmilio1.FactoriaCarrera"/>
+    </Class>
+    <Class name="ChicaJimenezEmilio1.Bicicleta.TC" x="473" y="48">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+</ClassDiagram>
